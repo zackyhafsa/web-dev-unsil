@@ -35,24 +35,46 @@ const Navbar = () => {
         >
           <ul className="flex flex-col md:flex-row gap-4">
             <li>
-              <a href="" className="">
+              <a href="/" className="group relative">
                 Beranda
+                <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
+                <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
               </a>
             </li>
             <li>
-              <a href="/about">Tentang</a>
+              <a href="/about" className="group relative">
+                Tentang
+                <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
+                <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
+              </a>
             </li>
             <li>
-              <a href="/wisata">Wisata</a>
+              <a href="/wisata" className="group relative">
+                Wisata
+                <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
+                <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
+              </a>
             </li>
             <li>
-              <a href="">Kuliner</a>
+              <a href="" className="group relative">
+                Kuliner
+                <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
+                <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
+              </a>
             </li>
             <li>
-              <a href="">Akomodasi</a>
+              <a href="" className="group relative">
+                Akomodasi
+                <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
+                <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
+              </a>
             </li>
             <li>
-              <a href="">Acara</a>
+              <a href="" className="group relative">
+                Acara
+                <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
+                <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
+              </a>
             </li>
           </ul>
         </div>
