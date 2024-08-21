@@ -5,7 +5,7 @@ const Card = () => {
     <div className="grid lg:grid-cols-2 w-full gap-y-5">
       <div className="max-lg:mx-auto">
         <div className="grid sm:grid-cols-2 gap-3">
-          <div className="w-72 rounded-md border overflow-hidden shadow-lg h-min">
+          <div className="w-72   border overflow-hidden shadow-lg h-min">
             <div className="h-52 bg-[url('/hero-bg.png')] bg-center bg-cover"></div>
             <h1 className="text-text-header font-bold text-xl ml-2 mt-2">Explore Wisata</h1>
             <p className="text-sm text-text-header font-light ml-2 mt-2">
@@ -13,12 +13,12 @@ const Card = () => {
             </p>
             <a
               href=""
-              className="block bg-text-header text-center py-2 text-white rounded-md font-semibold my-4 mx-2"
+              className="block bg-text-header text-center py-2 text-white  font-semibold my-4 mx-2"
             >
               Selengkapnya
             </a>
           </div>
-          <div className="w-72 rounded-md border overflow-hidden shadow-lg h-min">
+          <div className="w-72  border overflow-hidden shadow-lg h-min">
             <div className="h-52 bg-[url('/Lotek.png')] bg-center bg-cover"></div>
             <h1 className="text-text-header font-bold text-xl ml-2 mt-2">Explore Kuliner</h1>
             <p className="text-sm text-text-header font-light ml-2 mt-2">
@@ -26,7 +26,7 @@ const Card = () => {
             </p>
             <a
               href=""
-              className="block bg-text-header text-center py-2 text-white rounded-md font-semibold my-4 mx-2"
+              className="block bg-text-header text-center py-2 text-white  font-semibold my-4 mx-2"
             >
               Selengkapnya
             </a>
@@ -50,7 +50,7 @@ const Card = () => {
           <div className="border-b-4 border-gray-900 w-96 "></div>
         </div>
         <div className="grid sm:grid-cols-2 gap-3">
-          <div className="w-72 rounded-md border overflow-hidden shadow-lg h-min">
+          <div className="w-72  border overflow-hidden shadow-lg h-min">
             <div className="h-52 bg-[url('/event.png')] bg-center bg-cover"></div>
             <h1 className="text-text-header font-bold text-xl ml-2 mt-2">Explore Event</h1>
             <p className="text-sm text-text-header font-light ml-2 mt-2">
@@ -58,12 +58,12 @@ const Card = () => {
             </p>
             <a
               href=""
-              className="block bg-text-header text-center py-2 text-white rounded-md font-semibold my-4 mx-2"
+              className="block bg-text-header text-center py-2 text-white  font-semibold my-4 mx-2"
             >
               Selengkapnya
             </a>
           </div>
-          <div className="w-72 rounded-md border overflow-hidden shadow-lg h-min">
+          <div className="w-72  border overflow-hidden shadow-lg h-min">
             <div className="h-52 bg-[url('/akomodasi.png')] bg-center bg-cover"></div>
             <h1 className="text-text-header font-bold text-xl ml-2 mt-2">Cari Akomodasi</h1>
             <p className="text-sm text-text-header font-light ml-2 mt-2">
@@ -71,7 +71,7 @@ const Card = () => {
             </p>
             <a
               href=""
-              className="block bg-text-header text-center py-2 text-white rounded-md font-semibold my-4 mx-2"
+              className="block bg-text-header text-center py-2 text-white  font-semibold my-4 mx-2"
             >
               Selengkapnya
             </a>

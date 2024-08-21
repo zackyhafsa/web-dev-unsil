@@ -7,12 +7,13 @@ import CeritaKami from "../../../public/hero-bg.png";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import Subscribe from "../components/Subscribe";
+import Header from "../components/Header";
 
 const About = () => {
   return (
     <div>
       <div>
-        <div className="bg-[url('/hero-bg.png')] h-96 w-full bg-no-repeat bg-cover bg-center flex md:items-center pt-10 max-md:justify-center max-md:flex-col relative">
+        {/* <div className="bg-[url('/hero-bg.png')] h-96 w-full bg-no-repeat bg-cover bg-center flex md:items-center pt-10 max-md:justify-center max-md:flex-col relative">
           <div className="p-8 bg-gradient-to-b from-[#01A9C680] to-[#0D0D1480] h-full hidden md:flex items-center">
             <SocialMedia />
           </div>
@@ -24,7 +25,8 @@ const About = () => {
           <div className="p-8 bg-gradient-to-r from-[#01A9C680] to-[#0D0D1480] w-full md:hidden flex items-center absolute bottom-0 justify-center">
             <SocialMedia />
           </div>
-        </div>
+        </div> */}
+        <Header imageUrl={"/hero-bg.png"} first={"Tentang"} second={"Kami"} />
       </div>
       <div className="px-[7%] pt-16">
         <div>

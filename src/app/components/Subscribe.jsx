@@ -12,9 +12,9 @@ const Subscribe = () => {
           name="email"
           id="email"
           placeholder="Masukkan Email"
-          className="text-lg py-2 px-1 mt-5 rounded-md"
+          className="text-lg py-2 px-1 mt-5"
         />
-        <button className="sm:ml-5 max-sm:mt-3 bg-text-header text-lg rounded-md py-2 px-5 text-white font-semibold">
+        <button className="sm:ml-5 max-sm:mt-3 bg-text-header text-lg py-2 px-5 text-white font-semibold">
           Berlangganan
         </button>
       </form>

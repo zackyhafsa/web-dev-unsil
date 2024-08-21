@@ -7,23 +7,12 @@ import Adrenalin from "./Adrenalin";
 import Button from "../components/ButtonArrow";
 import Subscribe from "../components/Subscribe";
 import ButtonArrow from "../components/ButtonArrow";
+import Header from "../components/Header";
 
 const Wisata = () => {
   return (
     <div>
-      <div className="bg-[url('/wisata-bg.png')] h-96 w-full bg-no-repeat bg-cover bg-center flex md:items-center pt-10 max-md:justify-center max-md:flex-col relative">
-        <div className="p-8 bg-gradient-to-b from-[#01A9C680] to-[#0D0D1480] h-full hidden md:flex items-center">
-          <SocialMedia />
-        </div>
-        <div className="ml-3">
-          <h1 className="text-5xl text-white font-bold uppercase max-md:text-center">
-            <span className="text-primary">Wisata</span> Majalengka
-          </h1>
-        </div>
-        <div className="p-8 bg-gradient-to-r from-[#01A9C680] to-[#0D0D1480] w-full md:hidden flex items-center absolute bottom-0 justify-center">
-          <SocialMedia />
-        </div>
-      </div>
+      <Header imageUrl={"/wisata-bg.png"} first={"Wisata"} second={"Majalengka"} />
       <div className="mt-16 text-center">
         <h1 className=" font-bold text-3xl text-text-header mb-3">Destinasi Wisata</h1>
         <p>

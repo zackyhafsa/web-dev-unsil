@@ -56,21 +56,21 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="" className="group relative">
+              <a href="/kuliner" className="group relative">
                 Kuliner
                 <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
                 <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
               </a>
             </li>
             <li>
-              <a href="" className="group relative">
+              <a href="akomodasi" className="group relative">
                 Akomodasi
                 <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
                 <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
               </a>
             </li>
             <li>
-              <a href="" className="group relative">
+              <a href="acara" className="group relative">
                 Acara
                 <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
                 <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
