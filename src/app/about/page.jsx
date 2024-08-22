@@ -13,25 +13,12 @@ const About = () => {
   return (
     <div>
       <div>
-        {/* <div className="bg-[url('/hero-bg.png')] h-96 w-full bg-no-repeat bg-cover bg-center flex md:items-center pt-10 max-md:justify-center max-md:flex-col relative">
-          <div className="p-8 bg-gradient-to-b from-[#01A9C680] to-[#0D0D1480] h-full hidden md:flex items-center">
-            <SocialMedia />
-          </div>
-          <div className="ml-3">
-            <h1 className="text-5xl text-white font-bold uppercase max-md:text-center">
-              <span className="text-primary">Tentang</span> Kami
-            </h1>
-          </div>
-          <div className="p-8 bg-gradient-to-r from-[#01A9C680] to-[#0D0D1480] w-full md:hidden flex items-center absolute bottom-0 justify-center">
-            <SocialMedia />
-          </div>
-        </div> */}
         <Header imageUrl={"/hero-bg.png"} first={"Tentang"} second={"Kami"} />
       </div>
       <div className="px-[7%] pt-16">
         <div>
           <h1 className="text-3xl text-text-header font-bold uppercase">Majestic Majalengka</h1>
-          <p className="mt-3">
+          <p className="mt-3 text-justify">
             Selamat datang di Majestic Majalengka, sebuah portal pariwisata yang dirancang untuk
             mengenalkan pesona tersembunyi Majalengka kepada dunia. Kami hadir dengan tujuan untuk
             memudahkan Anda dalam mengeksplorasi kekayaan alam, budaya, dan tradisi yang ada di
@@ -45,7 +32,7 @@ const About = () => {
           </div>
         </div>
         <div className="flex justify-between max-md:flex-col mt-16">
-          <div className="md:w-1/2 mr-8">
+          <div className="md:w-1/2 md:mr-8">
             <h1 className="text-3xl text-text-header font-bold uppercase">Cerita Kami</h1>
             <p className="text-justify mt-3">
               Nama "Majestic Majalengka" diambil dari kata "Majestic" yang berarti megah, anggun,

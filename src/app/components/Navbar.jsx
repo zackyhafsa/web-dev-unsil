@@ -7,8 +7,12 @@ import { IoSunny } from "react-icons/io5";
 import { HiMenu, HiX } from "react-icons/hi"; // Import hamburger menu dan close icon
 import Logo from "../../../public/logo.png";
 import Button from "./Button";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 const Navbar = () => {
+  const pathname = usePathname();
+
   const [isOpen, setIsOpen] = useState(false); // State untuk toggle menu
 
   const toggleMenu = () => {
@@ -35,46 +39,82 @@ const Navbar = () => {
         >
           <ul className="flex flex-col md:flex-row gap-4">
             <li>
-              <a href="/" className="group relative">
+              <Link
+                href="/"
+                className={`group relative link ${
+                  pathname === "/" ? "border-b-2 border-text-header pb-1" : ""
+                }`}
+                onClick={toggleMenu}
+              >
                 Beranda
                 <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
                 <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about" className="group relative">
+              <Link
+                href="/about"
+                className={`group relative ${
+                  pathname === "/about" ? "border-b-2 border-text-header pb-1" : ""
+                }`}
+                onClick={toggleMenu}
+              >
                 Tentang
                 <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
                 <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/wisata" className="group relative">
+              <Link
+                href="/wisata"
+                className={`group relative link ${
+                  pathname === "/wisata" ? "border-b-2 border-text-header pb-1" : ""
+                }`}
+                onClick={toggleMenu}
+              >
                 Wisata
                 <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
                 <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/kuliner" className="group relative">
+              <Link
+                href="/kuliner"
+                className={`group relative link ${
+                  pathname === "/kuliner" ? "border-b-2 border-text-header pb-1" : ""
+                }`}
+                onClick={toggleMenu}
+              >
                 Kuliner
                 <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
                 <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="akomodasi" className="group relative">
+              <Link
+                href="akomodasi"
+                className={`group relative link ${
+                  pathname === "/akomodasi" ? "border-b-2 border-text-header pb-1" : ""
+                }`}
+                onClick={toggleMenu}
+              >
                 Akomodasi
                 <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
                 <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="acara" className="group relative">
+              <Link
+                href="acara"
+                className={`group relative link ${
+                  pathname === "/acara" ? "border-b-2 border-text-header pb-1" : ""
+                }`}
+                onClick={toggleMenu}
+              >
                 Acara
                 <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
                 <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-text-header group-hover:w-3/6 duration-300"></span>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

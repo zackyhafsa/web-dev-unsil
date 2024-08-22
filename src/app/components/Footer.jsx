@@ -78,7 +78,7 @@ const Footer = () => {
           <FaTiktok size={25} />
         </div>
         <p className="">Design and Development by WINDSTAND</p>
-        <p className="">© 2024 All Rights Reserved by Majestic Majalengka</p>
+        <p className="">© 2024 All Rights Reserved by Majestic</p>
       </div>
     </div>
   );

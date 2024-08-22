@@ -10,7 +10,7 @@ const Header = ({ imageUrl, first, second }) => {
       <div className="p-8 bg-gradient-to-b from-[#01A9C680] to-[#0D0D1480] h-full hidden md:flex items-center">
         <SocialMedia />
       </div>
-      <div className="ml-3">
+      <div className="md:ml-3">
         <h1 className="text-5xl text-white font-bold uppercase max-md:text-center">
           <span className="text-primary">{first}</span> {second}
         </h1>
