@@ -9,11 +9,11 @@ const SideNavbar = () => {
         <div className="w-1 h-10 bg-slate-500 mb-3"></div>
         <div className="w-1 h-10 bg-slate-500"></div>
       </div>
-      <div className="text-white flex flex-col gap-4 absolute bottom-5">
-        <FaFacebookF size={30} />
-        <FaInstagram size={30} />
-        <FaYoutube size={30} />
-        <FaTiktok size={30} />
+      <div className="text-white flex flex-col gap-4 absolute bottom-10">
+        <FaFacebookF size={30} className="hover:text-primary ease-in-out duration-100" />
+        <FaInstagram size={30} className="hover:text-primary ease-in-out duration-100" />
+        <FaYoutube size={30} className="hover:text-primary ease-in-out duration-100" />
+        <FaTiktok size={30} className="hover:text-primary ease-in-out duration-100" />
       </div>
     </div>
   );
