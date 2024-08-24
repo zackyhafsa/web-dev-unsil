@@ -176,7 +176,6 @@ const Navbar = () => {
                 ></span>
               </Link>
             </li>
-            {/* Tambahkan item menu lainnya di sini */}
           </ul>
         </div>
 

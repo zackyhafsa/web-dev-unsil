@@ -1,10 +1,7 @@
 import React from "react";
-import SocialMedia from "../components/SocialMedia";
 import WisataCard from "../components/WisataCard";
 import Footer from "../components/Footer";
-import { FaArrowRight } from "react-icons/fa";
 import Adrenalin from "./Adrenalin";
-import Button from "../components/ButtonArrow";
 import Subscribe from "../components/Subscribe";
 import ButtonArrow from "../components/ButtonArrow";
 import Header from "../components/Header";
