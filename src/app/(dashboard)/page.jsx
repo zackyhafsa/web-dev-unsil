@@ -1,3 +1,6 @@
+import Footer from "../components/Footer";
+import Subscribe from "../components/Subscribe";
+import Berita from "./Berita";
 import Hero from "./Hero";
 import Sorotan from "./Sorotan";
 import Welcome from "./Welcome";
@@ -24,7 +27,20 @@ export default function Home() {
         <div className="px-[7%] my-16">
           <Sorotan />
         </div>
+        <div className="mt-72 text-center">
+          <h1 className="font-bold text-3xl text-text-header uppercase">Berita</h1>
+          <p>Cari tahu informasi terkait pariwisata Majalengka dengan membaca berita berikut.</p>
+        </div>
+        <div className="px-[7%] py-16 flex flex-col gap-5">
+          <Berita />
+          <Berita />
+          <Berita />
+        </div>
+        <div className="w-full flex justify-center  items-center my-16">
+          <Subscribe />
+        </div>
       </div>
+      <Footer />
     </div>
   );
 }

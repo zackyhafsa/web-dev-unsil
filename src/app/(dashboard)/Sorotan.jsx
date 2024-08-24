@@ -38,11 +38,11 @@ const Sorotan = () => {
         </div>
         <div className="lg:w-1/4 flex flex-col gap-3 lg:h-[27rem] md:h-96 ">
           <div className="bg-[url('/Lotek.png')] bg-center bg-cover bg-no-repeat flex justify-between flex-col text-white lg:h-1/2 md:h-48 h-96 overflow-hidden group">
-            <div className="bg-gradient-to-b from-black to-[#fff0] p-5 -translate-y-20 group-hover:translate-y-0 transition-all duration-150 ease-in-out">
+            <div className="bg-gradient-to-b from-black to-[#fff0] p-5 -translate-y-20 group-hover:translate-y-0 transition-all duration-300 ease-in-out">
               <h1>KULINER</h1>
               <h1 className="font-bold">LOTEK</h1>
             </div>
-            <div className="bg-gradient-to-t from-black to-[#fff0] p-5 translate-y-20 group-hover:translate-y-0 transition-all duration-300 ease-in-out">
+            <div className="bg-gradient-to-t from-black to-[#fff0] p-5 translate-y-20 group-hover:translate-y-0 transition-all duration-500 ease-in-out">
               <a
                 href=""
                 className="block text-center py-1 mt-3 border-white border-2 hover:bg-white hover:text-black transition-all duration-100 ease-in-out"
@@ -53,11 +53,11 @@ const Sorotan = () => {
           </div>
 
           <div className="bg-[url('/acara.png')] bg-center bg-cover bg-no-repeat flex justify-between flex-col text-white lg:h-1/2 md:h-48 h-96 group overflow-hidden">
-            <div className="bg-gradient-to-b from-black to-[#fff0] p-5 -translate-y-20 group-hover:translate-y-0 transition-all duration-150 ease-in-out">
+            <div className="bg-gradient-to-b from-black to-[#fff0] p-5 -translate-y-20 group-hover:translate-y-0 transition-all duration-300 ease-in-out">
               <h1>ACARA</h1>
               <h1 className="font-bold">RAMPAK GENTENG</h1>
             </div>
-            <div className="bg-gradient-to-t from-black to-[#fff0] p-5 translate-y-20 group-hover:translate-y-0 transition-all duration-300 ease-in-out">
+            <div className="bg-gradient-to-t from-black to-[#fff0] p-5 translate-y-20 group-hover:translate-y-0 transition-all duration-500 ease-in-out">
               <a
                 href=""
                 className="block text-center py-1 mt-3 border-white border-2 hover:bg-white hover:text-black transition-all duration-100 ease-in-out"
