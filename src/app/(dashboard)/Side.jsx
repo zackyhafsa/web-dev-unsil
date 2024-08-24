@@ -10,10 +10,10 @@ const SideNavbar = () => {
         <div className="w-1 h-10 bg-slate-500"></div>
       </div>
       <div className="text-white flex flex-col gap-4 absolute bottom-10">
-        <FaFacebookF size={30} className="hover:text-primary ease-in-out duration-100" />
-        <FaInstagram size={30} className="hover:text-primary ease-in-out duration-100" />
-        <FaYoutube size={30} className="hover:text-primary ease-in-out duration-100" />
-        <FaTiktok size={30} className="hover:text-primary ease-in-out duration-100" />
+        <FaFacebookF size={25} className="hover:text-primary ease-in-out duration-100" />
+        <FaInstagram size={25} className="hover:text-primary ease-in-out duration-100" />
+        <FaYoutube size={25} className="hover:text-primary ease-in-out duration-100" />
+        <FaTiktok size={25} className="hover:text-primary ease-in-out duration-100" />
       </div>
     </div>
   );
