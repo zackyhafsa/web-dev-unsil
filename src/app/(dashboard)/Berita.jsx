@@ -5,7 +5,10 @@ const Berita = () => {
   return (
     <div className="w-full">
       <div className="flex justify-between gap-5 border p-5 max-md:flex-col">
-        <div className="md:w-[28rem] h-52 bg-[url('/berita1.png')] bg-center bg-cover bg-no-repeat"></div>
+        <div
+          className="md:w-[28rem] h-52  bg-center bg-cover bg-no-repeat"
+          style={{ backgroundImage: `url('/berita1.png')` }}
+        ></div>
         <div className="flex flex-col justify-between">
           <div>
             <h1 className="font-bold text-text-header text-2xl">

@@ -11,7 +11,7 @@ const Sorotan = () => {
             style={{ backgroundImage: `url('/panyaweuyan.png')` }}
           >
             <div className="flex flex-col justify-between h-full">
-              <div className="bg-gradient-to-b from-black to-[#fff0] -translate-y-20 group-hover:translate-y-0 transition-all duration-300 ease-in-out p-5">
+              <div className="bg-gradient-to-b from-black to-[#fff0]  p-5">
                 <h1>DESTINASI WISATA</h1>
                 <h1 className="font-bold">TERASERING PANYAWEUYAN</h1>
               </div>
@@ -37,8 +37,11 @@ const Sorotan = () => {
           </div>
         </div>
         <div className="lg:w-1/4 flex flex-col gap-3 lg:h-[27rem] md:h-96 ">
-          <div className="bg-[url('/Lotek.png')] bg-center bg-cover bg-no-repeat flex justify-between flex-col text-white lg:h-1/2 md:h-48 h-96 overflow-hidden group">
-            <div className="bg-gradient-to-b from-black to-[#fff0] p-5 -translate-y-20 group-hover:translate-y-0 transition-all duration-300 ease-in-out">
+          <div
+            className=" bg-center bg-cover bg-no-repeat flex justify-between flex-col text-white lg:h-1/2 md:h-48 h-96 overflow-hidden group"
+            style={{ backgroundImage: `url('/Lotek.png')` }}
+          >
+            <div className="bg-gradient-to-b from-black to-[#fff0] p-5 ">
               <h1>KULINER</h1>
               <h1 className="font-bold">LOTEK</h1>
             </div>
@@ -52,8 +55,11 @@ const Sorotan = () => {
             </div>
           </div>
 
-          <div className="bg-[url('/acara.png')] bg-center bg-cover bg-no-repeat flex justify-between flex-col text-white lg:h-1/2 md:h-48 h-96 group overflow-hidden">
-            <div className="bg-gradient-to-b from-black to-[#fff0] p-5 -translate-y-20 group-hover:translate-y-0 transition-all duration-300 ease-in-out">
+          <div
+            className=" bg-center bg-cover bg-no-repeat flex justify-between flex-col text-white lg:h-1/2 md:h-48 h-96 group overflow-hidden"
+            style={{ backgroundImage: `url('/acara.png')` }}
+          >
+            <div className="bg-gradient-to-b from-black to-[#fff0] p-5 ">
               <h1>ACARA</h1>
               <h1 className="font-bold">RAMPAK GENTENG</h1>
             </div>
@@ -74,8 +80,11 @@ const Sorotan = () => {
             </h1>
             <div className="border-b-4 border-black w-96 "></div>
           </div>
-          <div className="h-96 bg-[url('/CurugBaligo.png')] bg-center bg-cover bg-no-repeat flex justify-between flex-col  text-white group overflow-hidden">
-            <div className="bg-gradient-to-b from-black to-[#fff0] p-5 -translate-y-20 group-hover:translate-y-0 transition-all duration-300 ease-in-out">
+          <div
+            className="h-96  bg-center bg-cover bg-no-repeat flex justify-between flex-col  text-white group overflow-hidden"
+            style={{ backgroundImage: `url('/CurugBaligo.png')` }}
+          >
+            <div className="bg-gradient-to-b from-black to-[#fff0] p-5 ">
               <h1>DESTINASI WISATA</h1>
               <h1 className="font-bold">HIDDEN GEM CURUG BALIGO</h1>
             </div>

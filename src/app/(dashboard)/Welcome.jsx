@@ -6,7 +6,10 @@ const Welcome = () => {
       <div className="w-full h-full bg-gradient-to-r from-[#D9D9D980] to-[#C5FF9580] px-[7%] py-16">
         <div className="lg:flex gap-20 items-center">
           <div className="lg:w-1/3">
-            <div className="bg-[url('/homeAbout2.png')] lg:aspect-square aspect-video bg-center bg-cover bg-no-repeat relative">
+            <div
+              className="lg:aspect-square aspect-video bg-center bg-cover bg-no-repeat relative"
+              style={{ backgroundImage: `url('/homeAbout2.png')` }}
+            >
               <div className=" text-white py-2 px-4 bg-gradient-to-r from-[#C6FF9680] to-[#07417380] absolute md:-right-16 bottom-5 text-xl font-light ">
                 Majestic <span className="font-bold italic">MJL</span>
               </div>
