@@ -7,12 +7,12 @@ const Footer = () => {
   return (
     <div className="bg-text-header px-[7%] py-10 text-white">
       <div className="flex justify-between max-md:flex-col ">
-        <div className="max-md:mb-5">
+        <div className="max-md:mb-5 max-md:mx-auto max-md:flex max-md:items-center max-md:flex-col">
           <Image src={Logo} width={55} priority alt={"logo"} />
           <p className="text-white font-light text-sm">Discover the Hidden Beauty of West Java</p>
         </div>
-        <div className="flex max-sm:flex-col max-sm:text-center">
-          <div className="sm:mr-16 max-sm:my-5">
+        <div className="flex max-md:grid max-md:grid-cols-2 max-md:text-center">
+          <div className="sm:mr-16 max-md:my-5">
             <h1 className="font-bold mb-5 text-lg">About</h1>
             <ul className="font-light flex flex-col gap-3">
               <li>

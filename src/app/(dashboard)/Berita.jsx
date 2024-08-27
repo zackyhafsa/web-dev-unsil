@@ -11,9 +11,9 @@ const Berita = () => {
         ></div>
         <div className="flex flex-col justify-between">
           <div>
-            <h1 className="font-bold text-text-header text-2xl">
+            <a href="/berita/:1" className="font-bold text-text-header text-2xl hover:underline">
               Tingkatkan Kunjungan Wisatawan, Pemkab Majalengka Terapkan Strategi Ini
-            </h1>
+            </a>
             <p className="text-sm text-justify text-text-header mt-2">
               Pemerintah Kabupaten Majalengka (Pemkab Majalengka), Jawa Barat, optimis melihat
               potensi peningkatan kunjungan wisatawan pada tahun ini.

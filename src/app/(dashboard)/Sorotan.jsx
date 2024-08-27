@@ -15,7 +15,7 @@ const Sorotan = () => {
                 <h1>DESTINASI WISATA</h1>
                 <h1 className="font-bold">TERASERING PANYAWEUYAN</h1>
               </div>
-              <div className=" bg-gradient-to-t from-black to-[#fff0] p-5 translate-y-36 group-hover:translate-y-0 transition-all duration-500 ease-in-out">
+              <div className=" bg-gradient-to-t from-black to-[#fff0] p-5 ">
                 <p>
                   Terasering Panyaweuyan merupakan salah satu wisata populer yang ada di
                   Majalengka..
@@ -45,7 +45,7 @@ const Sorotan = () => {
               <h1>KULINER</h1>
               <h1 className="font-bold">LOTEK</h1>
             </div>
-            <div className="bg-gradient-to-t from-black to-[#fff0] p-5 translate-y-20 group-hover:translate-y-0 transition-all duration-500 ease-in-out">
+            <div className="bg-gradient-to-t from-black to-[#fff0] p-5 ">
               <a
                 href=""
                 className="block text-center py-1 mt-3 border-white border-2 hover:bg-white hover:text-black transition-all duration-100 ease-in-out"
@@ -63,7 +63,7 @@ const Sorotan = () => {
               <h1>ACARA</h1>
               <h1 className="font-bold">RAMPAK GENTENG</h1>
             </div>
-            <div className="bg-gradient-to-t from-black to-[#fff0] p-5 translate-y-20 group-hover:translate-y-0 transition-all duration-500 ease-in-out">
+            <div className="bg-gradient-to-t from-black to-[#fff0] p-5">
               <a
                 href=""
                 className="block text-center py-1 mt-3 border-white border-2 hover:bg-white hover:text-black transition-all duration-100 ease-in-out"
@@ -88,7 +88,7 @@ const Sorotan = () => {
               <h1>DESTINASI WISATA</h1>
               <h1 className="font-bold">HIDDEN GEM CURUG BALIGO</h1>
             </div>
-            <div className="bg-gradient-to-t from-black to-[#fff0] p-5  translate-y-40 group-hover:translate-y-0 transition-all duration-500 ease-in-out">
+            <div className="bg-gradient-to-t from-black to-[#fff0] p-5  ">
               <p>
                 Sesuai namanya, Curug Baligo berada di Blok Baligo, Desa Padaherang, Kecamatan
                 Sindangwangi, Kabupaten Majalengka, Jawa Barat.

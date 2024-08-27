@@ -19,9 +19,9 @@ export default function Home() {
         <Welcome />
         <div className="py-16 text-center bg-[url('/sorotan-bg.png')] bg-center bg-no-repeat">
           <h1 className="text-3xl font-bold text-text-header uppercase">Sorotan</h1>
-          <p>
-            Majalengka memiliki bermacam hal yang dapat dinikmati. Berikut <br />
-            adalah beberapa hal yang menjadi sorotan saat ini.
+          <p className="lg:w-1/2 mx-auto">
+            Majalengka memiliki bermacam hal yang dapat dinikmati. Berikut adalah beberapa hal yang
+            menjadi sorotan saat ini.
           </p>
         </div>
         <div className="px-[7%] mt-16 mb-72">
