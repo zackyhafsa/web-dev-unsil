@@ -17,7 +17,7 @@ const Hero = () => {
         setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
         setIsFading(false);
       }, 800);
-    }, 5000);
+    }, 10000);
 
     return () => clearInterval(interval);
   }, []);

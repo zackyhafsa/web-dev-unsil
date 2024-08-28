@@ -11,7 +11,7 @@ const Berita = () => {
         ></div>
         <div className="flex flex-col justify-between">
           <div>
-            <a href="/berita/:1" className="font-bold text-text-header text-2xl hover:underline">
+            <a href="/berita/1" className="font-bold text-text-header text-2xl hover:underline">
               Tingkatkan Kunjungan Wisatawan, Pemkab Majalengka Terapkan Strategi Ini
             </a>
             <p className="text-sm text-justify text-text-header mt-2">

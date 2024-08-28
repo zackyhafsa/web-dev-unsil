@@ -12,14 +12,16 @@ const About = () => {
       </div>
       <div className="px-[7%] pt-16">
         <div>
-          <h1 className="text-3xl text-text-header font-bold uppercase">Majestic Majalengka</h1>
-          <p className="mt-3 text-justify">
-            Selamat datang di Majestic Majalengka, sebuah portal pariwisata yang dirancang untuk
-            mengenalkan pesona tersembunyi Majalengka kepada dunia. Kami hadir dengan tujuan untuk
-            memudahkan Anda dalam mengeksplorasi kekayaan alam, budaya, dan tradisi yang ada di
-            Majalengka, serta memberikan panduan lengkap untuk pengalaman wisata yang tak
-            terlupakan.
-          </p>
+          <div className="bg-[url('/about-bg.png')] bg-cover bg-no-repeat py-16">
+            <h1 className="text-3xl text-text-header font-bold uppercase">Majestic Majalengka</h1>
+            <p className="mt-3 text-justify">
+              Selamat datang di Majestic Majalengka, sebuah portal pariwisata yang dirancang untuk
+              mengenalkan pesona tersembunyi Majalengka kepada dunia. Kami hadir dengan tujuan untuk
+              memudahkan Anda dalam mengeksplorasi kekayaan alam, budaya, dan tradisi yang ada di
+              Majalengka, serta memberikan panduan lengkap untuk pengalaman wisata yang tak
+              terlupakan.
+            </p>
+          </div>
           <div className="w-full h-96 bg-[url('/homeAbout.png')] bg-no-repeat bg-cover bg-center my-5 relative">
             <div className=" text-white py-2 px-4 bg-gradient-to-r from-[#C6FF9680] to-[#07417380] absolute md:-right-16 bottom-5 text-xl font-light ">
               Majestic <span className="font-bold italic">MJL</span>
