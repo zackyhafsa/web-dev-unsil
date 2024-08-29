@@ -20,88 +20,34 @@ const Wisata = () => {
       <div className="px-[7%] my-5 mx-auto">
         <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-x-20 gap-y-28">
           <WisataCard
-            imageUrl={`/akomodasi.png`}
-            title={`Panyaweyan`}
-            description={`One of Saturn’s largest rings may be newer than anyone`}
-            date={`May 13, 2019`}
-            author={`Unmaku`}
+            imageUrl={"/panyaweuyan.png"}
+            title={"Panyaweuyan"}
+            tempat={"Kec. Argapura"}
           />
           <WisataCard
-            imageUrl={`/akomodasi.png`}
-            title={`Panyaweyan`}
-            description={`One of Saturn’s largest rings may be newer than anyone`}
-            date={`May 13, 2019`}
-            author={`Unmaku`}
+            imageUrl={"/panyaweuyan.png"}
+            title={"Ciboerpas"}
+            tempat={"Kec. Sindangwangi"}
           />
           <WisataCard
-            imageUrl={`/akomodasi.png`}
-            title={`Panyaweyan`}
-            description={`One of Saturn’s largest rings may be newer than anyone`}
-            date={`May 13, 2019`}
-            author={`Unmaku`}
+            imageUrl={"/panyaweuyan.png"}
+            title={"Kebun Teh Cipasung"}
+            tempat={"Kec. Lemahsugih"}
           />
           <WisataCard
-            imageUrl={`/akomodasi.png`}
-            title={`Panyaweyan`}
-            description={`One of Saturn’s largest rings may be newer than anyone`}
-            date={`May 13, 2019`}
-            author={`Unmaku`}
+            imageUrl={"/panyaweuyan.png"}
+            title={"Jembar Waterpark"}
+            tempat={"Kec. Kasokandel"}
           />
           <WisataCard
-            imageUrl={`/akomodasi.png`}
-            title={`Panyaweyan`}
-            description={`One of Saturn’s largest rings may be newer than anyone`}
-            date={`May 13, 2019`}
-            author={`Unmaku`}
+            imageUrl={"/panyaweuyan.png"}
+            title={"Curug Muara Jaya"}
+            tempat={"Kec. Argapura"}
           />
           <WisataCard
-            imageUrl={`/akomodasi.png`}
-            title={`Panyaweyan`}
-            description={`One of Saturn’s largest rings may be newer than anyone`}
-            date={`May 13, 2019`}
-            author={`Unmaku`}
-          />
-          <WisataCard
-            imageUrl={`/akomodasi.png`}
-            title={`Panyaweyan`}
-            description={`One of Saturn’s largest rings may be newer than anyone`}
-            date={`May 13, 2019`}
-            author={`Unmaku`}
-          />
-          <WisataCard
-            imageUrl={`/akomodasi.png`}
-            title={`Panyaweyan`}
-            description={`One of Saturn’s largest rings may be newer than anyone`}
-            date={`May 13, 2019`}
-            author={`Unmaku`}
-          />
-          <WisataCard
-            imageUrl={`/akomodasi.png`}
-            title={`Panyaweyan`}
-            description={`One of Saturn’s largest rings may be newer than anyone`}
-            date={`May 13, 2019`}
-            author={`Unmaku`}
-          />
-          <WisataCard
-            imageUrl={`/akomodasi.png`}
-            title={`Panyaweyan`}
-            description={`One of Saturn’s largest rings may be newer than anyone`}
-            date={`May 13, 2019`}
-            author={`Unmaku`}
-          />
-          <WisataCard
-            imageUrl={`/akomodasi.png`}
-            title={`Panyaweyan`}
-            description={`One of Saturn’s largest rings may be newer than anyone`}
-            date={`May 13, 2019`}
-            author={`Unmaku`}
-          />
-          <WisataCard
-            imageUrl={`/akomodasi.png`}
-            title={`Panyaweyan`}
-            description={`One of Saturn’s largest rings may be newer than anyone`}
-            date={`May 13, 2019`}
-            author={`Unmaku`}
+            imageUrl={"/panyaweuyan.png"}
+            title={"Situ Cipadung"}
+            tempat={"Kec. Argapura"}
           />
         </div>
         <div className="my-20 flex justify-end">
