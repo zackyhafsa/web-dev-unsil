@@ -11,12 +11,12 @@ const Ulasan = () => {
         <HiOutlinePencilSquare size={20} />
         <h1>Tulis Ulasanmu</h1>
       </div>
-      <div className="flex  mt-16">
-        <div className="w-1/5 text-text-header mr-20 border shadow-lg h-min px-2 py-5">
+      <div className="flex max-md:flex-col  mt-16">
+        <div className="md:w-1/5 text-text-header md:mr-20 border shadow-md h-min px-2 py-5">
           <h1 className="font-bold text-xl">Ulasan</h1>
-          <div>
+          <div> 
             <Rating />
-            <div className="flex justify-between">
+            <div className="flex justify-between mt-3">
               <div className="flex">
                 <IoStarSharp size={20} color="#ffc107" />
                 <IoStarSharp size={20} color="#ffc107" />
@@ -58,7 +58,7 @@ const Ulasan = () => {
             </div>
           </div>
         </div>
-        <div className="w-4/5">
+        <div className="md:w-4/5 max-md:mt-5">
           <Comment />
           <Comment />
           <Comment />

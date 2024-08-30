@@ -3,19 +3,19 @@ import Rating from "./Rating";
 
 const WisataProfile = () => {
   return (
-    <div className="flex gap-5 my-5">
-      <div className=" w-3/5 flex flex-col gap-2 relative">
-        <div className="w-full h-2/3 bg-red-600"></div>
+    <div className="flex max-md:flex-col gap-5 my-5">
+      <div className=" md:w-3/5 max-md:h-96 flex flex-col gap-2 relative">
+        <div className="w-full h-2/3 bg-[url('/panyaweuyan.png')] bg-center bg-cover bg-no-repeat"></div>
         <div className="h-1/3 flex gap-4 overflow-x-scroll">
-          <div className="w-72 h-full bg-slate-600 flex-shrink-0"></div>
-          <div className="w-72 h-full bg-slate-600 flex-shrink-0"></div>
-          <div className="w-72 h-full bg-slate-600 flex-shrink-0"></div>
+          <div className="w-72 h-full bg-[url('/hero1-flip.png')] bg-center bg-cover bg-no-repeat flex-shrink-0"></div>
+          <div className="w-72 h-full bg-[url('/kecil_1.png')] bg-center bg-cover bg-no-repeat flex-shrink-0"></div>
+          <div className="w-72 h-full bg-[url('/hero1.png')] bg-center bg-cover bg-no-repeat flex-shrink-0"></div>
         </div>
-        <div className="absolute -bottom-7">
+        <div className="absolute -bottom-7 max-md:-bottom-10">
           <Rating />
         </div>
       </div>
-      <div className="w-2/5 bg-white shadow-xl border p-3">
+      <div className="md:w-2/5 bg-white shadow-xl border p-3 max-md:mt-10">
         <h1 className="text-text-header">Jenis Wisata</h1>
         <div className="flex gap-3 my-2">
           <p className="py-1 px-10 bg-primary text-text-header text-sm">Alam</p>

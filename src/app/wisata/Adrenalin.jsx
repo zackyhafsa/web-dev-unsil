@@ -7,7 +7,7 @@ const Adrenalin = () => {
       <h1 className="text-text-header text-center text-3xl font-bold  block md:hidden mb-5">
         UJI ADRENALIN MU
       </h1>
-      <div className="md:w-1/2 bg-[url('/paralayang.png')] bg-cover bg-center bg-no-repeat h-[529px]"></div>
+      <div className="md:w-1/2 bg-[url('/paralayang.jpg')] bg-cover bg-center bg-no-repeat h-[529px]"></div>
       <div className="md:w-1/2  relative">
         <h1 className="text-center text-3xl text-text-header font-bold hidden md:block">
           UJI ADRENALIN MU

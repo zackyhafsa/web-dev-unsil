@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 const Akomodasi = () => {
   return (
     <div>
-      <Header imageUrl={"/akomodasi-bg.png"} first={"Akomodasi"} second={"Majalengka"} />
+      <Header imageUrl={"/akomodasi-bg.jpg"} first={"Akomodasi"} second={"Majalengka"} />
       <div className="px-[7%]">
         <div className="text-center py-16 w-full">
           <h1 className="text-3xl text-text-header font-bold uppercase">Akomodasi</h1>
@@ -18,52 +18,53 @@ const Akomodasi = () => {
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3 lg:px-[5%] ">
           <AkomodasiCard
-            imageUrl={"/akomodasi.png"}
+            imageUrl={"/fitraHotel.jpeg"}
             rating={2}
             title={"Fitra Hotel Majalengka"}
             location={"Kec. Majalengka"}
           />
           <AkomodasiCard
-            imageUrl={"/akomodasi.png"}
+            imageUrl={"/akomodasi-bg.jpg"}
+            rating={2}
+            title={"Hotel Bima"}
+            location={"Kec. Panyingkiran"}
+          />
+          <AkomodasiCard
+            imageUrl={"/horison.jpg"}
             rating={4}
-            title={"Fitra Hotel Majalengka"}
+            title={"Hotel Horison Utama Kertajati"}
+            location={"Kec. Kertajati"}
+          />
+
+          <AkomodasiCard
+            imageUrl={"/summerville.jpg"}
+            rating={4}
+            title={"Hotel Summerville"}
             location={"Kec. Majalengka"}
           />
           <AkomodasiCard
-            imageUrl={"/akomodasi.png"}
-            rating={4}
-            title={"Fitra Hotel Majalengka"}
-            location={"Kec. Majalengka"}
+            imageUrl={"/jatiwangiGuest.jpg"}
+            rating={2}
+            title={"Jatiwangi Syariah Guest House"}
+            location={"Kec. Jatiwangi"}
           />
           <AkomodasiCard
-            imageUrl={"/akomodasi.png"}
-            rating={4}
-            title={"Fitra Hotel Majalengka"}
-            location={"Kec. Majalengka"}
+            imageUrl={"/fieris.jpeg"}
+            rating={3}
+            title={"Fieris Hotel and Convention Kertajati"}
+            location={"Kec. Kertajati"}
           />
           <AkomodasiCard
-            imageUrl={"/akomodasi.png"}
+            imageUrl={"/garden.jpeg"}
             rating={4}
-            title={"Fitra Hotel Majalengka"}
-            location={"Kec. Majalengka"}
+            title={"Garden Hotel Majalengka"}
+            location={"Kec. Panyingkiran"}
           />
           <AkomodasiCard
-            imageUrl={"/akomodasi.png"}
+            imageUrl={"/paraland.jpeg"}
             rating={4}
-            title={"Fitra Hotel Majalengka"}
-            location={"Kec. Majalengka"}
-          />
-          <AkomodasiCard
-            imageUrl={"/akomodasi.png"}
-            rating={4}
-            title={"Fitra Hotel Majalengka"}
-            location={"Kec. Majalengka"}
-          />
-          <AkomodasiCard
-            imageUrl={"/akomodasi.png"}
-            rating={4}
-            title={"Fitra Hotel Majalengka"}
-            location={"Kec. Majalengka"}
+            title={"Paraland Resort"}
+            location={"Kec. Panyingkiran"}
           />
         </div>
         <div className="w-full flex justify-center  items-center my-16">

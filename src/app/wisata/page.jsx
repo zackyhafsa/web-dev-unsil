@@ -9,7 +9,7 @@ import Header from "../components/Header";
 const Wisata = () => {
   return (
     <div>
-      <Header imageUrl={"/wisata-bg.png"} first={"Wisata"} second={"Majalengka"} />
+      <Header imageUrl={"/hero-wisata.png"} first={"Wisata"} second={"Majalengka"} />
       <div className="mt-16 text-center">
         <h1 className=" font-bold text-3xl text-text-header mb-3">Destinasi Wisata</h1>
         <p>
@@ -25,27 +25,27 @@ const Wisata = () => {
             tempat={"Kec. Argapura"}
           />
           <WisataCard
-            imageUrl={"/panyaweuyan.png"}
+            imageUrl={"/Ciboerpas-min.png"}
             title={"Ciboerpas"}
             tempat={"Kec. Sindangwangi"}
           />
           <WisataCard
-            imageUrl={"/panyaweuyan.png"}
+            imageUrl={"/kebun-teh.jpg"}
             title={"Kebun Teh Cipasung"}
             tempat={"Kec. Lemahsugih"}
           />
           <WisataCard
-            imageUrl={"/panyaweuyan.png"}
+            imageUrl={"/jembar.png"}
             title={"Jembar Waterpark"}
             tempat={"Kec. Kasokandel"}
           />
           <WisataCard
-            imageUrl={"/panyaweuyan.png"}
+            imageUrl={"/curugMuarajaya.png"}
             title={"Curug Muara Jaya"}
             tempat={"Kec. Argapura"}
           />
           <WisataCard
-            imageUrl={"/panyaweuyan.png"}
+            imageUrl={"/situCipadung.png"}
             title={"Situ Cipadung"}
             tempat={"Kec. Argapura"}
           />

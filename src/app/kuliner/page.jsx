@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 const Kuliner = () => {
   return (
     <div>
-      <Header imageUrl={"/kuliner-bg.png"} first={"Kuliner"} second={"Khas Majalengka"} />
+      <Header imageUrl={"/pepes.png"} first={"Kuliner"} second={"Khas Majalengka"} />
       <div className="px-[7%]">
         <div className="text-center py-16">
           <h1 className="text-3xl text-text-header font-bold">Kuliner</h1>

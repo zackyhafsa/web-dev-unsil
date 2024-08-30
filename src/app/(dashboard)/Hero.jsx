@@ -8,7 +8,7 @@ const Hero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isFading, setIsFading] = useState(false);
 
-  const images = ["/hero-bg.png", "/homeAbout.png", "/CurugBaligo.png"];
+  const images = ["/hero1-flip.png", "hero1.png", "Kecil_1.png"];
 
   useEffect(() => {
     const interval = setInterval(() => {

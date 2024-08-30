@@ -5,7 +5,7 @@ const Subscribe = () => {
     <div className="w-full mx-[15%] max-lg:mx-[5%] max-md:mx-[2%] relative bg-gradient-to-r from-[#07417399] to-[#C5FF9599]">
       <div className="bg-[url('/subscribe.png')] w-full h-full absolute bg-center bg-cover bg-no-repeat -z-10"></div>
       <div className="py-10 px-4">
-        <h1 className="font-bold text-3xl text-white">
+        <h1 className="font-bold text-2xl md:text-3xl text-white">
           Dapatkan E-Book Panduan Perjalanan Gratis <br />
           Dengan Berlangganan
         </h1>

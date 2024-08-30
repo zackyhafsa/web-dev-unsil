@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div>
       <div>
-        <Header imageUrl={"/hero-bg.png"} first={"Tentang"} second={"Kami"} />
+        <Header imageUrl={"/hero1-flip.png"} first={"Tentang"} second={"Kami"} />
       </div>
       <div className="px-[7%] pt-16">
         <div>

@@ -9,7 +9,7 @@ const Author = () => {
       <div className="flex items-center text-text-header gap-3">
         <CgProfile size={40} />
         <div className="">
-          <h1 className="font-bold">Admin Majestic MJL</h1>
+          <h1 className="font-bold max-md:text-sm">Admin Majestic MJL</h1>
           <p className="text-xs">Jum'at 16 Agustus 2024</p>
         </div>
       </div>
