@@ -13,7 +13,16 @@ const WisataDesc = () => {
           bangunan permanen.
         </p>
       </div>
-      <div className="md:w-2/5 h-72 bg-[url('/maps.png')] bg-center bg-cover bg-no-repeat"></div>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7796234286557!2d108.34754177587591!3d-6.916930167700745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f3cbc28a92655%3A0x2bbc3a9a5743c1aa!2sLembah%20Panyaweuyan!5e0!3m2!1sid!2sid!4v1725106297078!5m2!1sid!2sid"
+        width="600"
+        height="450"
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      />
     </div>
   );
 };
