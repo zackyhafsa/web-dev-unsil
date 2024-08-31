@@ -5,7 +5,7 @@ import Image from "next/image";
 import { CiSearch } from "react-icons/ci";
 import { IoSunny } from "react-icons/io5";
 import { HiMenu, HiX } from "react-icons/hi";
-import Logo from "../../../public/logo.png";
+import Logo from "../../../public/Logo_Majestic.png";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 

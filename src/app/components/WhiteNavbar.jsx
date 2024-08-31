@@ -5,7 +5,7 @@ import { useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import { IoSunny } from "react-icons/io5";
 import { HiMenu, HiX } from "react-icons/hi"; // Import hamburger menu dan close icon
-import Logo from "../../../public/logo.png";
+import Logo from "../../../public/Logo_Majestic.png";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
